@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -ex
-IMAGE_NAME="alxshelepenok/redis"
+IMAGE_NAME="alxshelepenok/influx"
 NEXUS_REGISTRY="docker-hosted.nexus.infrastructure.alxshelepenok.com"
 TAG="${1}"
 docker build -t ${IMAGE_NAME}:"${TAG}" .
